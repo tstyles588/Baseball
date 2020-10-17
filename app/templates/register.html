@@ -1,0 +1,35 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<div class="col-md-8 offset-4" class="accent">
+
+    <h3 class="title">Register Page</h3>
+    <hr>
+    <div class="row">
+    <div class="col-md-4">
+        <form method="POST" action="{{ url_for('register') }}">
+            <div class="form-group">
+                <input type="text" class="form-control" name="first_name" placeholder="First Name">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" name="last_name" placeholder="Last Name">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" name="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password">
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btm btn-primary" value="Submit">
+            </div>
+        </form>
+    </div>
+    </div>
+</div>
+
+{% endblock %}

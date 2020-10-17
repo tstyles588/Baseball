@@ -1,0 +1,23 @@
+nav {
+    margin-bottom: 30px;
+}
+
+title {
+    margin-bottom: 30px;
+}
+
+h3, h6 {
+    color: red;
+}
+
+body {
+    background-color: navy;
+}
+
+strong {
+    color: red;
+}
+
+footer {
+    margin-top: 100px;
+}
